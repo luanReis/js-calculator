@@ -3,9 +3,11 @@ var Calculator = function() {
     return x + y;
   }
 
-  return {
-    add: add
-  };
+  function sub(x, y) {
+    return x - y;
+  }
+
+  return { add, sub };
 };
 
 module.exports = Calculator;
