@@ -1,0 +1,79 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#display {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+#ac {
+  grid-column-start: 4;
+  grid-row-start: 2;
+}
+
+#add {
+  grid-column-start: 4;
+  grid-row-start: 3;
+}
+
+#sub {
+  grid-column-start: 4;
+  grid-row-start: 4;
+}
+
+#equal {
+  grid-column-start: 4;
+}
+
+#one {
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+#two {
+  grid-column-start: 2;
+  grid-row-start: 4; 
+}
+
+#three {
+  grid-column-start: 3;
+  grid-row-start: 4;   
+}
+
+#four {
+  grid-column-start: 1;
+  grid-row-start: 3; 
+}
+
+#five {
+  grid-column-start: 2;
+  grid-row-start: 3; 
+}
+
+#six {
+  grid-column-start: 3;
+  grid-row-start: 3;
+}
+
+#seven {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#eight {
+  grid-column-start: 2;
+  grid-row-start: 2; 
+}
+
+#nine {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+#zero {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 5;
+}
