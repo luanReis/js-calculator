@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha *.spec.js"
+    "start": "http-server -p 5000",
+    "test": "mocha test/*.spec.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "1.4.1",
+    "http-server": "0.10.0",
     "mocha": "4.1.0"
   }
 }

@@ -1,5 +1,5 @@
 const assert = require('assert');
-const Calculator = require('./index.js');
+const Calculator = require('../src/Calculator.js');
 
 describe('Calculator', () => {
   const calculator = new Calculator();
